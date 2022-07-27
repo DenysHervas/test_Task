@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css?_v=20220727153149" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220727153149">
+    <title>Главная</title>
+</head>
+
+<body>
+    <main>
+    <header class="__container">
+        <nav class="nav-container position-relative d-flex justify-content-between align-items-center w-100">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.svg" alt="logo monza motosports" class="img__logo">
+            </a>
+            <div class="nav-container__colappse">
+              <div class="navbar-nav__list justify-content-between align-items-center">
+                <a class="nav-item nav-link nav-container__link" href="#">Inventory </a>
+                <a class="nav-item nav-link nav-container__link" href="#">Financing </a>
+                <a class="nav-item nav-link nav-container__link" href="#">Contacts</a>
+                <div class="nav-container__social-link d-flex justify-content-between align-items-center">
+                    <a href="#" class="link-social">
+                        <img src="img/facebook_logo.svg" alt="link facebook" class="link-social__img link-facebook">
+                    </a>
+                    <a href="#" class="link-social">
+                        <img src="img/instagram_logo.svg" alt="link instagram" class="link-social__img link-instagram">
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="burger">
+                <div class="burger__line burger__line_first"></div>
+                <div class="burger__line burger__line_second"></div>
+                <div class="burger__line burger__line_third"></div>
+                <div class="burger__line burger__line_fourth"></div>
+            </div>
+          </nav>
+    </header>
+    
+    <section class="banner d-flex flex-column justify-content-center position-relative">
+        <div class="banner__img position-absolute">
+            <picture><source srcset="img/banner.webp" type="image/webp"><img src="img/banner.jpg" alt="banner"></picture>
+        </div>
+        <div class="banner__container__ __container position-relative">
+            <div class="banner__container__body">
+                <div class="banner__container__title">
+                    <h1>The right way to get a car</h1>
+                </div>
+                <div class="banner__container__description d-flex w-50">
+                    <p class="mr-4 my-0">Monza Motorsports is a boutique-style dealership specializing in premium imports. We offer an advanced online vehicle purchasing experience with integrated financing and contactless home delivery.</p>
+                    <p>All of our cars come with a 5 day/500 kilometres no-hassle exchange option. Since 2012 Monza Motorsports 
+                        has been the benchmark for innovation in the automotive industry.</p>
+                </div>
+                <div class="banner__container__button-wrapper">
+                    <input class="banner__container__button" type="button" value="Browse cars">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offers">
+        <div class="offers__body __container d-flex flex-column justify-content-center align-items-center   ">
+            <div class="offres__title">
+                <h2>CURRENT OFFERS</h2>
+            </div>
+            <div class="offers__wrapper">
+                <div class="offers__dropdown">
+                  <label data-value="">Year</label>
+                  <ul>
+                    <li data-value="1">Option #1</li>
+                    <li data-value="2">Option #2</li>
+                    <li data-value="3">Option #3</li>
+                  </ul>
+                </div>
+                <div class="offers__dropdown">
+                    <label data-value="">Make</label>
+                    <ul>
+                      <li data-value="1">Option #1</li>
+                      <li data-value="2">Option #2</li>
+                      <li data-value="3">Option #3</li>
+                    </ul>
+                </div>
+                <div class="offers__dropdown">
+                    <label data-value="">Model</label>
+                    <ul>
+                      <li data-value="1">Option #1</li>
+                      <li data-value="2">Option #2</li>
+                      <li data-value="3">Option #3</li>
+                    </ul>
+                  </div>
+                  <div class="offers__dropdown">
+                      <label data-value="">Trim</label>
+                      <ul>
+                        <li data-value="1">Option #1</li>
+                        <li data-value="2">Option #2</li>
+                        <li data-value="3">Option #3</li>
+                      </ul>
+                  </div>
+                  <div class="offers__dropdown">
+                    <label data-value="">Mileage</label>
+                    <ul>
+                      <li data-value="1">Option #1</li>
+                      <li data-value="2">Option #2</li>
+                      <li data-value="3">Option #3</li>
+                    </ul>
+                   </div>
+                <div class="offers__wrapp__button">
+                    <input class="offers__button"  type="button" value="40 cars">
+                </div>
+            </div>
+            <div class="offers__sort w-100">
+                <div class="offers__sort__wrapper">
+                    <div class="offers__available d-flex justify-content-between align-items-center ">
+                        <div class="offers__checkbox checkbox">
+                            <label class="checkbox__check d-flex align-items-center">
+                                <input class="checkbox__check__input" type="checkbox" />
+                                <span class="checkbox__check__box"></span>
+                                <p class="checkbox__check__text">Instantly available vehicles</p>
+                            </label>
+                        </div>
+                        <div class="offres__sort sort">
+                            <div class="sort__wrapper d-flex justify-content-between">
+                                <span>Sort by </span>
+                                <div class="sort__dropdown">
+                                    <label data-value="">Publication date (ascending)</label>
+                                    <ul>
+                                      <li data-value="1" class="descending">Publication date (descending)</li>
+                                      <li data-value="2">Price (ascending)</li>
+                                      <li data-value="3" class="descending">Price (descending)</li>
+                                      <li data-value="4">Mileage (ascending)</li>
+                                      <li data-value="5" class="descending">Mileage (descending)</li>
+                                      <li data-value="6">Performance (ascending)</li>
+                                      <li data-value="7" class="descending">Performance (descending)</li>
+                                    </ul>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="offeres__container w-100">
+                <div class="__container">
+                    <div class="offeres__row w-100 d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_1.webp" type="image/webp"><img src="img/auto_1.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2019 </span><p>Volkswagen Tiguan</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">19,855 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_2.webp" type="image/webp"><img src="img/auto_2.jpg" alt="model auto"></picture>
+                                    <div class="new-blank d-flex justify-content-center align-items-center">
+                                        <span>New</span>
+                                     </div>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2014 </span><p>Toyota Highlander XLE</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">69,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$27,875</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_3.webp" type="image/webp"><img src="img/auto_3.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2017  </span><p>Lexus RX 350 LUXURY</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">39,850 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$38,775</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_4.webp" type="image/webp"><img src="img/auto_4.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Toyota Highlander LE A...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">104,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$23,728</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_5.webp" type="image/webp"><img src="img/auto_5.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2017 </span><p>Hyundai Elantra</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">95,000  km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$11,788</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_6.webp" type="image/webp"><img src="img/auto_6.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Mercedes-Benz GLE-Cl...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">59,800 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$38,878</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col sold">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    
+                                    <picture><source srcset="img/auto_7.webp" type="image/webp"><img src="img/auto_7.jpg" alt="model auto"></picture>
+                                    <div class="sold__text">
+                                        <span>SOLD</span>
+                                    </div>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2015 </span><p>Toyota Venza AWD XLE...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">99,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$18,620 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_8.webp" type="image/webp"><img src="img/auto_8.jpg" alt="model auto"></picture>
+                                    <div class="new-blank d-flex justify-content-center align-items-center">
+                                        <span>New</span>
+                                     </div>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Lexus RX 350 F-SPORT</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">86,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_1.webp" type="image/webp"><img src="img/auto_1.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2019 </span><p>Volkswagen Tiguan</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">19,855 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_2.webp" type="image/webp"><img src="img/auto_2.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2014 </span><p>Toyota Highlander XLE</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">69,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$27,875</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_3.webp" type="image/webp"><img src="img/auto_3.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2017  </span><p>Lexus RX 350 LUXURY</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">39,850 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$38,775</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_4.webp" type="image/webp"><img src="img/auto_4.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Toyota Highlander LE A...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">104,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$23,728</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_1.webp" type="image/webp"><img src="img/auto_1.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2019 </span><p>Volkswagen Tiguan</p>
+                                        <div class="new-blank d-flex justify-content-center align-items-center">
+                                            <span>New</span>
+                                         </div>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">19,855 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_2.webp" type="image/webp"><img src="img/auto_2.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2014 </span><p>Toyota Highlander XLE</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">69,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$27,875</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_3.webp" type="image/webp"><img src="img/auto_3.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2017  </span><p>Lexus RX 350 LUXURY</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">39,850 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$38,775</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_4.webp" type="image/webp"><img src="img/auto_4.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Toyota Highlander LE A...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">104,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$23,728</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_5.webp" type="image/webp"><img src="img/auto_5.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2017 </span><p>Hyundai Elantra</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">95,000  km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$11,788</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_6.webp" type="image/webp"><img src="img/auto_6.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Mercedes-Benz GLE-Cl...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">59,800 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$38,878</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_7.webp" type="image/webp"><img src="img/auto_7.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2015 </span><p>Toyota Venza AWD XLE...</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">99,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$18,620 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_8.webp" type="image/webp"><img src="img/auto_8.jpg" alt="model auto"></picture>
+                                    <div class="new-blank d-flex justify-content-center align-items-center">
+                                        <span>New</span>
+                                     </div>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2016 </span><p>Lexus RX 350 F-SPORT</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">86,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_1.webp" type="image/webp"><img src="img/auto_1.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2019 </span><p>Volkswagen Tiguan</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">19,855 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Diesel</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$34,888</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offeres__col last-col">
+                            <div class="offers__element d-flex flex-column">
+                                <div class="offers__img">
+                                    <picture><source srcset="img/auto_2.webp" type="image/webp"><img src="img/auto_2.jpg" alt="model auto"></picture>
+                                </div>
+                                <div class="offers__description d-flex flex-column">
+                                    <div class="description__model d-flex">
+                                        <span>2014 </span><p>Toyota Highlander XLE</p>
+                                    </div>
+                                    <div class="description__mileage d-flex justify-content-between">
+                                        <span class="span__line">69,000 km</span>
+                                        <span class="span__line">Automatic</span>
+                                        <span>Gas</span> 
+                                    </div>
+                                    <div class="description__price">
+                                        <span>$27,875</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe w-100">
+        <div class="subcribe__body __container justify-content-center">
+            <div class="subcribe__wrapper w-100 d-flex justify-content-between align-items-center">
+                <div class="subcribe__description">
+                    <h4 class="subcribe__title">Haven't found a suitable vehicle?</h4>
+                    <p class="subcribe__text">Sign up for our newsletter and be the first to know when we publish new vehicle offers.</p>
+                </div>
+                <div class="subcribe__input">
+                    <input type="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="subcribe__button">
+                    <input type="button" for="email" value="Subscribe now">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quetions w-100">
+        <div class="quetions__body d-flex align-items-center flex-column">
+            <div class="quetions__title">
+                <h2>popular questions</h2>
+            </div>
+            <div class="quetions__wrapper w-100">
+                <div class="quetions__block ">
+                    <p>1. Scope</p>
+                    <div class="quetions__info">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                    </div>
+                <div class="quetions__block">
+                    <p>2. Vehicle characteristics</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block quetions__block__selected">
+                    <p>3. Warranty / guarantee</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block">
+                    <p>4. Trade-in vehicle</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block">
+                    <p>5. Home Delivery</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block">
+                    <p>6. Right of return</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block">
+                    <p>7. Written form</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+                <div class="quetions__block">
+                    <p>8. Applicable law and place of jurisdiction</p>
+                    <div class="quetions__info ">
+                        <span>3.1 The statutory warranty is completely excluded to the extent permitted by law.</span>
+                        <span>3.2 If the vehicle still has a current factory warranty, a sales representative (brand representative) of the manufacturer shall provide the services owed therein. If there is a factory warranty, the beginning of the warranty for new vehicles or vehicles with a current manufacturer's warranty is not the date of the first placing on the market, but the beginning of the warranty in the manufacturer's system or the contractually agreed beginning of the warranty, if any.</span>
+                        <span>3.3 If there is a special warranty insurance for the vehicle, this will take the place of the material warranty according to section 3.1 and replace it. In this case, the General Terms and Conditions of the respective warranty service provider apply.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+      
+
+    <footer class="footer ">
+    <nav class="__container nav-container position-relative d-flex justify-content-between align-items-center w-100">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" alt="logo monza motosports" class="img__logo">
+        </a>
+        <div class="nav-container__colappse">
+          <div class="navbar-nav__list justify-content-between align-items-center">
+            <a class="nav-item nav-link nav-container__link" href="#">Inventory </a>
+            <a class="nav-item nav-link nav-container__link" href="#">Financing </a>
+            <a class="nav-item nav-link nav-container__link" href="#">Contacts</a>
+            
+          </div>
+        </div>
+        <div class="nav-container__social-link d-flex justify-content-between align-items-center">
+            <a href="#" class="link-social">
+                <img src="img/facebook_logo.svg" alt="link facebook" class="link-social__img link-facebook">
+            </a>
+            <a href="#" class="link-social">
+                <img src="img/instagram_logo.svg" alt="link instagram" class="link-social__img link-instagram">
+            </a>
+        </div>
+        
+      </nav>
+    </footer>
+</main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js?_v=20220727153149"></script>
+    <script src="js/app.min.js?_v=20220727153149"></script>
+</body>
+</html>
